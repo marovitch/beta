@@ -28,7 +28,7 @@ header{
 	justify-content:center;
 	align-items:center;
 	color:white;
-	
+
 }
 
 
@@ -90,8 +90,8 @@ header .link-top{
 	text-decoration: none;
 	padding:10px 30px;
 	color: white;
-	font-size:3em;
-	border-top:0.2px solid #4a4a4a;
+	font-size:4em;
+	border-top:2px solid white;
 	transition: text-shadow 0.5s;
 }
 
@@ -118,7 +118,7 @@ header .link-top{
 
 }
 .subtitulo{
-	margin:1.5em 0 ;
+	margin:3em 0 3em 0 ;
 	text-align:center;
 	font-size:2em;
 	font-weight: 200;
@@ -292,6 +292,7 @@ figcaption{
 	justify-content: center;
 	align-content: center;
 	background:whitesmoke;
+	grid-template-columns: 1fr 1fr;
 
 }
 
@@ -464,7 +465,8 @@ footer .fa-arrow-circle-up:hover{
 
 @media (min-width: 600px){
 	.grid-cursos{
-	grid-template-columns:repeat(4, 230px);
+	grid-template-columns:repeat(3, 230px);
+	text-align: center;
 	height:70vh;
 	/*- tamanho do display (vh) - tamanho da fonte - padding - line height*/
 	}
@@ -482,15 +484,15 @@ footer .fa-arrow-circle-up:hover{
 @media(max-width:605px){
 
 	header{
-		
+
 		background: linear-gradient(0deg, rgba(4,36,84,1) 0%, rgba(63,50,163,1) 80%, rgba(106,94,192,1) 100%);
 	}
 
 	.link-top{
 		position:absolute;
-		bottom:5em;
+		bottom:1.5em;
 	}
-	
+
 
 	.grid-cursos{
 	grid-template-columns:repeat(1, 230px);
@@ -522,14 +524,8 @@ footer .fa-arrow-circle-up:hover{
 
 @media (max-width:575px){
 
-
-	.menu li {
-		font-size:1.5em;
-		padding-bottom:10px;
-	}
-
 	.menu .icon {
-		font-size:2em;
+		font-size:1.6em;
 	}
 
 
@@ -576,11 +572,10 @@ footer .fa-arrow-circle-up:hover{
 
 	font-size:1.7em;
 }
-	
+
 	.link-top .link-header{
 	font-size:2.8em;
 	padding:1em;
-	border:none;
 
 
 }
@@ -614,7 +609,6 @@ footer .fa-arrow-circle-up{
 	.link-top .link-header{
 	font-size:2.5em;
 	padding:1em;
-	border:none;
 
 
 }
@@ -633,5 +627,5 @@ footer .fa-arrow-circle-up{
 
 }
 
-  
+
 
